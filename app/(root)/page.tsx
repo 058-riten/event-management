@@ -1,7 +1,7 @@
-import CategoryFilter from "@/components/ui/shared/CategoryFilter";
-import Collection from "@/components/ui/shared/Collection";
-import Search from "@/components/ui/shared/Search";
-import { Button } from "@/components/ui/ui/button";
+import CategoryFilter from "@/components/shared/CategoryFilter";
+import Collection from "@/components/shared/Collection";
+import Search from "@/components/shared/Search";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
