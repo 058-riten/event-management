@@ -2,7 +2,6 @@
 
 import { eventDefaultValues } from "@/constants"
 import { IEvent } from "@/lib/database/models/event.model"
-import { useRouter } from "next/router"
 import { useState } from "react"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
@@ -26,6 +25,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Checkbox } from "../ui/checkbox"
 import { createEvent, updateEvent } from "@/lib/actions/event.actions"
 import { useUploadThing } from "@/lib/uploadthing"
+import { useRouter } from "next/navigation"
 
 
 type EventFormProps = {
